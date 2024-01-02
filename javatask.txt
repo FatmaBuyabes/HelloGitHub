@@ -1,0 +1,46 @@
+import sun.security.util.Length;
+
+// import static org.junit.jupiter.api.Assertions.assertEquals;
+
+// import org.junit.jupiter.api.Test;
+
+class Main {
+  public static void main(String[] args) {
+    String firstName = "Fatma";
+    String lastName = "Buyabes";
+    int age = 23;
+    double amount = 20;
+    boolean isMarried = false;
+    String deposit = "Deposite";
+    String withdraw = "Withdraw";
+
+    System.out.println("name:" + firstName + " " + lastName + "\n Age: " + age + "\n Amount: " + amount);
+
+    System.out
+        .println(" The amount is: " + amount + "\nWould you like to " + deposit + " or " + withdraw + " the amount?");
+
+    int amounT = 5;
+    System.out.println(amounT + " plus " + amounT + " marks " + (amounT + amounT));
+    String fullName = "Fatma Buyabes ";
+    System.out.println("My name is " + firstName + " and my last name length is " + lastName.length());
+
+    if (lastName.startsWith("a")) {
+      boolean isFirst = true;
+    } else {
+      isFirst = false;
+    }
+    System.out.println(isFirst);
+
+    
+
+    
+
+    ;
+
+  }
+
+  // @Test
+  // void addition() {
+  // assertEquals(2, 1 + 1);
+  // }
+}
